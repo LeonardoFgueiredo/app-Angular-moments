@@ -4,7 +4,9 @@
     justify-content: center;
     flex-direction: column;
   }
-  
+  fa-icon{
+    color:black;
+  }
   .home-container h1 {
     margin-bottom: 0.5em;
   }

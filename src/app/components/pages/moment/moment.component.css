@@ -60,15 +60,17 @@
   .comment-container {
     text-align: left;
     border-bottom: 1px solid #efefef;
-    padding: 1em 0;
+    padding: 1em;
+
+    background-color: #6273a44b;
   }
   
   .comment {
-    font-size: 0.9em;
+    font-size: 1.5em;
   }
   
   .author {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   
   .comment-form {
