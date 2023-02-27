@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #282a36;
+    color:#f8f8f2;
+}
+a{
+    text-decoration: none;
+    transition: .4s;
+}
+
+a:hover{
+    color: #8be9fd;
+}
+
+/*FORM*/
+
+form{
+    width: 450px;
+    margin: 0 auto;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-group label{
+    margin-bottom:.4em;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 1em;
+  color: #777;
+}
+
+input[type="submit"] {
+  background-color: #efefef;
+  border: none;
+  padding: 0.6em 1em;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1em;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+
+input[type="submit"]:hover {
+  color: #bd93f9;
+  border-color: #bd93f9;
+  background-color: transparent;
+}
+
+.validation-error p {
+  color: #ff5555;
+  margin-top: 0.4em;
+  border-left: 3px solid #ff5555;
+  padding-left: 0.2em;
+}
